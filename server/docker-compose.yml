@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  python:
+    container_name: 'python-Server'
+    build: ./
+    volumes:
+      - ./:/app
+    tty: true
+    ports:
+      - 8888:8080
