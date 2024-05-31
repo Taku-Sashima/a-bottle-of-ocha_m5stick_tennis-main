@@ -1,0 +1,11 @@
+.DS_Store
+
+
+# secrets
+secrets/
+
+WifiSecret.h
+
+
+# server data
+/server/data/
